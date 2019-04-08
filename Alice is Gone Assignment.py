@@ -25,6 +25,9 @@ Name: Alice
 Name: Charles
    Experiment: Flu antibody study
 
+#the following line would create a new worker/member
+sqlite> insert into people values (Null, 'Timmy', 'Research Technician', '555-555-5555', '8')
+
 #the following line would update Alice's information to the new member
 sqlite> update people set name='New Member' where id=0;
 
