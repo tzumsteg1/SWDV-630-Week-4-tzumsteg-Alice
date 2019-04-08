@@ -1,3 +1,5 @@
+import sqlite
+
 In [1]: import sqlite3
 
 In [2]: con = sqlite3.connect('pcfb.sqlite')
